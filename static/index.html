@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"></head>
-<body><h1>Hello world!</h1></body>
+<head><meta charset="utf-8">
+  <script src="/src/js.js" async="" defer=""></script>
+<style>
+  body {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <fieldset>
+      <legend>El button</legend>
+      <button class="the-button">Click me</button><br><span class="the-button-clicks">0</span>
+    </fieldset>
+  </div>
+</body>
 </html>

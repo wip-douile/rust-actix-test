@@ -1,0 +1,3 @@
+[submodule "actix-examples"]
+	path = actix-examples
+	url = https://github.com/actix/examples.git
